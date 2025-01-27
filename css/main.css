@@ -105,8 +105,14 @@ footer .redes {
   width: 20%;
 }
 .main-menu .menu .card .text-card {
-  font-size: 10px h2;
-  font-size-font-size: 12px;
+  font-size: 10px;
+}
+.main-menu .menu .card .text-card h2 {
+  font-size: 12px;
+}
+.main-menu .menu .card .text-card p {
+  padding-left: 5px;
+  padding-right: 5px;
 }
 .main-menu .menu .card .boton-card {
   width: 50px;
@@ -168,6 +174,12 @@ footer .redes {
   .main-menu .menu {
     margin-left: 1.5rem;
     margin-right: 1.5rem;
+  }
+  .main-menu .menu .card .text-card {
+    font-size: 20px;
+  }
+  .main-menu .menu .card .text-card h2 {
+    font-size: 25px;
   }
   .main-menu .menu .card .text-card p {
     padding-left: 10px;
