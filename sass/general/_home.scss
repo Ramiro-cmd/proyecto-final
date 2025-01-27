@@ -18,28 +18,37 @@ nav{
 }
 
 /* MAIN */
-main{
-    background-color: #FFAF45;
-}
+
 .main-index{
     height: 75vh;
+    margin-bottom: 20px;
     @include grid(grid, 1fr, repeat(2, 40%));
     .imagen-main{
+        align-content: center;
         img{
+            
             width: 90%;
             border-radius: 50%;
         }
     }
     .text-main{
+        text-align: center;
+        align-content: center;
         p{
             padding: 1rem;
         }
         button{
-            @include medidas(70px,40px);
-            background-color: #121212;
+            @include medidas(90px,40px);
+            background-color: #8F2907;
             border-radius: 15%;
+            border: 2px solid #8F2907;
+            cursor: pointer;
+            &:hover{
+                background-color: $color-principal;
+                
+            }
             a{
-                color: whitesmoke;
+                color: $textos  ;
                 text-decoration: none;
 
             }
@@ -52,6 +61,21 @@ main{
 
 footer{
     background-color: #1E2D2F;
-    color: whitesmoke;
+    color: $textos;
     display: flex;
+    align-content: center;
+    text-align: center;
+    align-items: center;
+    justify-content: space-around;
+    margin-bottom: 0;
+    padding: 10px;
+    .logo-footer{
+        img{
+            @include medidas(60px,60px)
+        }
+    }
+    
+    .redes{
+        display: none;
+    }
 }

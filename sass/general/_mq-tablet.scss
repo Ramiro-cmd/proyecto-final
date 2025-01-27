@@ -1,0 +1,53 @@
+//import mixin
+@import "../utilidades/mixin";
+
+
+
+/* Estilos para tablet */
+@media screen and (min-width: 600px){
+    /* HEADER */
+    nav{
+        div{
+            a{
+                .logo-rm{
+                    @include medidas(80px, 80px);
+                }
+            }
+        }
+    }
+    
+    /* MAIN */
+    .main-index{
+        height: 80vh;
+        @include grid(grid, 1fr, 50% 30%);
+        .text-main{
+            p{
+                font-size: 25px;
+            }
+            button{
+                @include medidas(120px, 70px,);
+                font-size: 20px;
+            }
+        }
+        
+    }
+    
+    /* FOOTER */
+    footer{
+        .logo-footer{
+            img{
+                @include medidas(80px,80px)
+            }
+        }
+        .redes{
+            display: block;
+            ul{
+                list-style: none;
+                display: flex;
+                justify-content: space-evenly;
+                gap: 1rem;
+            }
+        }
+    }
+
+}

@@ -4,7 +4,7 @@
   box-sizing: border-box;
 }
 
-body {
+.body-bg {
   background-color: #F4A261;
 }
 
@@ -19,12 +19,9 @@ nav div a .logo-rm {
 }
 
 /* MAIN */
-main {
-  background-color: #FFAF45;
-}
-
 .main-index {
   height: 75vh;
+  margin-bottom: 20px;
   display: grid;
   grid-template-columns: 1fr;
   grid-template-rows: repeat(2, 40%);
@@ -32,29 +29,95 @@ main {
   align-content: center;
   text-align: center;
 }
+.main-index .imagen-main {
+  align-content: center;
+}
 .main-index .imagen-main img {
   width: 90%;
   border-radius: 50%;
+}
+.main-index .text-main {
+  text-align: center;
+  align-content: center;
 }
 .main-index .text-main p {
   padding: 1rem;
 }
 .main-index .text-main button {
-  width: 70px;
+  width: 90px;
   height: 40px;
-  background-color: #121212;
+  background-color: #8F2907;
   border-radius: 15%;
+  border: 2px solid #8F2907;
+  cursor: pointer;
+}
+.main-index .text-main button:hover {
+  background-color: #F4A261;
 }
 .main-index .text-main button a {
-  color: whitesmoke;
+  color: #FAF9F6;
   text-decoration: none;
 }
 
 /* FOOTER */
 footer {
   background-color: #1E2D2F;
-  color: whitesmoke;
+  color: #FAF9F6;
   display: flex;
+  align-content: center;
+  text-align: center;
+  align-items: center;
+  justify-content: space-around;
+  margin-bottom: 0;
+  padding: 10px;
+}
+footer .logo-footer img {
+  width: 60px;
+  height: 60px;
+}
+footer .redes {
+  display: none;
+}
+
+/* Estilos para tablet */
+@media screen and (min-width: 600px) {
+  /* HEADER */
+  nav div a .logo-rm {
+    width: 80px;
+    height: 80px;
+  }
+  /* MAIN */
+  .main-index {
+    height: 80vh;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 50% 30%;
+    gap: 1.5rem;
+    align-content: center;
+    text-align: center;
+  }
+  .main-index .text-main p {
+    font-size: 25px;
+  }
+  .main-index .text-main button {
+    width: 120px;
+    height: 70px;
+    font-size: 20px;
+  }
+  /* FOOTER */
+  footer .logo-footer img {
+    width: 80px;
+    height: 80px;
+  }
+  footer .redes {
+    display: block;
+  }
+  footer .redes ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 1rem;
+  }
 }
 
 /*# sourceMappingURL=main.css.map */
