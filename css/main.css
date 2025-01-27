@@ -1,0 +1,60 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #F4A261;
+}
+
+/* HEADER */
+.bg-header {
+  background-color: #faf9f6;
+}
+
+nav div a .logo-rm {
+  width: 60px;
+  height: 60px;
+}
+
+/* MAIN */
+main {
+  background-color: #FFAF45;
+}
+
+.main-index {
+  height: 75vh;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: repeat(2, 40%);
+  gap: 1.5rem;
+  align-content: center;
+  text-align: center;
+}
+.main-index .imagen-main img {
+  width: 90%;
+  border-radius: 50%;
+}
+.main-index .text-main p {
+  padding: 1rem;
+}
+.main-index .text-main button {
+  width: 70px;
+  height: 40px;
+  background-color: #121212;
+  border-radius: 15%;
+}
+.main-index .text-main button a {
+  color: whitesmoke;
+  text-decoration: none;
+}
+
+/* FOOTER */
+footer {
+  background-color: #1E2D2F;
+  color: whitesmoke;
+  display: flex;
+}
+
+/*# sourceMappingURL=main.css.map */
