@@ -3,6 +3,8 @@
 //import de variables
 @import "../utilidades/variables";
 
+
+//ESTILOS DEL INDEX
 /* HEADER */
 .bg-header{
     background-color: $color-navbar;
@@ -18,7 +20,6 @@ nav{
 }
 
 /* MAIN */
-
 .main-index{
     height: 75vh;
     margin-bottom: 20px;
@@ -57,9 +58,7 @@ nav{
        
     }
 }
-
 /* FOOTER */
-
 footer{
     background-color: #1E2D2F;
     color: $textos;
@@ -68,7 +67,6 @@ footer{
     text-align: center;
     align-items: center;
     justify-content: space-around;
-    margin-bottom: 0;
     padding: 10px;
     .logo-footer{
         img{
@@ -78,5 +76,22 @@ footer{
     
     .redes{
         display: none;
+    }
+}
+
+//---------------------------------------------------------------
+//ESTILOS DEL MENU
+/* ESTILOS DEL MENU */
+.main-menu{
+    .menu{
+        @include grid(grid,1fr, repeat(4,1fr));
+        .card{
+            display: flex;
+            flex-direction: row;
+            img{
+                width: 30%;
+            }
+            
+        }
     }
 }

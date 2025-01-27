@@ -68,7 +68,6 @@ footer {
   text-align: center;
   align-items: center;
   justify-content: space-around;
-  margin-bottom: 0;
   padding: 10px;
 }
 footer .logo-footer img {
@@ -77,6 +76,23 @@ footer .logo-footer img {
 }
 footer .redes {
   display: none;
+}
+
+/* ESTILOS DEL MENU */
+.main-menu .menu {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: repeat(4, 1fr);
+  gap: 1.5rem;
+  align-content: center;
+  text-align: center;
+}
+.main-menu .menu .card {
+  display: flex;
+  flex-direction: row;
+}
+.main-menu .menu .card img {
+  width: 30%;
 }
 
 /* Estilos para tablet */
