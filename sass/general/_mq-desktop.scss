@@ -13,9 +13,11 @@
 
     /* ESTILOS DE MENU */
     .main-menu{
+        align-content: center;
+        align-items: center;
         .menu{
-            @include grid(grid, repeat(2,1fr),repeat(2,1fr));
-            
+            @include grid(grid, repeat(2,40%),repeat(2,1fr));
+            justify-content: center;
             .card{
                 flex-direction: column;
                 padding-left: 0;

@@ -185,13 +185,18 @@ footer .redes {
     text-align: center;
   }
   /* ESTILOS DE MENU */
+  .main-menu {
+    align-content: center;
+    align-items: center;
+  }
   .main-menu .menu {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(2, 40%);
     grid-template-rows: repeat(2, 1fr);
     gap: 1.5rem;
     align-content: center;
     text-align: center;
+    justify-content: center;
   }
   .main-menu .menu .card {
     flex-direction: column;
