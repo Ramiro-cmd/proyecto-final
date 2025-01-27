@@ -24,6 +24,7 @@ nav{
     margin-bottom: 20px;
     @include grid(grid, 1fr, repeat(2, 40%));
     .imagen-main{
+        
         align-content: center;
         img{
             

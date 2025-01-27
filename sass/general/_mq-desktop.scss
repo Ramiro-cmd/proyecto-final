@@ -1,0 +1,15 @@
+//import utilidades
+@import "../utilidades/mixin";
+@import "../utilidades/variables";
+
+
+/* ESTILOS DESKTOP */
+@media screen and (min-width: 1024px) {
+
+
+
+    .main-index{
+        @include grid(grid, repeat(2, 1fr), 1fr);
+
+    }
+}
