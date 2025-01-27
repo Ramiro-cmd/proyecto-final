@@ -150,6 +150,26 @@ footer .redes {
   padding-bottom: 10px;
 }
 
+/* ESTILOS DE CONTACTO */
+.main-contacto .cont-contacto {
+  display: flex;
+  flex-direction: column-reverse;
+}
+.main-contacto .cont-contacto div form {
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 15px;
+}
+.main-contacto .cont-contacto .img-cont {
+  text-align: center;
+}
+.main-contacto .cont-contacto .img-cont .avatar {
+  width: 50%;
+  border-radius: 50%;
+  padding-top: 15px;
+  padding-bottom: 10px;
+}
+
 /* Estilos para tablet */
 @media screen and (min-width: 600px) {
   /* HEADER */
@@ -298,6 +318,22 @@ footer .redes {
     width: 400px;
     height: 400px;
     border-radius: 5px;
+  }
+  /* ESTILOS DE CONTACTO */
+  .main-contacto {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+  }
+  .main-contacto .cont-contacto {
+    flex-direction: row;
+    justify-content: center;
+  }
+  .main-contacto .cont-contacto .img-cont {
+    width: 500px;
+  }
+  .main-contacto .cont-contacto .img-cont .avatar {
+    width: 350px;
+    height: 350px;
   }
 }
 

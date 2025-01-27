@@ -61,4 +61,24 @@
         }
         
     }
+
+    /* ESTILOS DE CONTACTO */
+    .main-contacto{
+    
+        padding-top: 3rem;
+        padding-bottom: 3rem;
+        .cont-contacto{
+            flex-direction: row;
+            justify-content: center;
+        
+            .img-cont{
+                width: 500px;
+                .avatar{
+                    width: 350px;
+                    height: 350px;
+                }
+               
+            }
+        }
+    }
 }

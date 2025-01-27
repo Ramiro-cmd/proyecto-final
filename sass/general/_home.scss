@@ -150,3 +150,33 @@ footer{
         }
     }
 }
+
+
+//---------------------------------------------------------------
+/* ESTILOS DE CONTACTO */
+
+.main-contacto{
+    .cont-contacto{
+        display: flex;
+        flex-direction: column-reverse;
+        div{
+            form{
+                padding-left: 10px;
+                padding-right: 10px;
+                padding-bottom: 15px;
+            }
+        }
+        .img-cont{ 
+            text-align: center;
+            
+            .avatar{
+                width: 50%;
+                border-radius: 50%;
+                padding-top: 15px;
+                padding-bottom: 10px;
+            }
+        }
+    }
+
+    
+}
