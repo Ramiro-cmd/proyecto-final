@@ -83,13 +83,43 @@ footer{
 //ESTILOS DEL MENU
 /* ESTILOS DEL MENU */
 .main-menu{
+    .titulo-menu{
+        text-align: center;
+        padding: 20px
+    }
     .menu{
         @include grid(grid,1fr, repeat(4,1fr));
+        padding-bottom: 1.5rem;
         .card{
+            border: none;
+            margin-left: 2px;
+            margin-right: 2px;
+            padding: 10px;
             display: flex;
             flex-direction: row;
+            align-items: center;
+            
             img{
-                width: 30%;
+                width: 20%;
+            }
+            .text-card{
+                font-size: 10px
+                h2{
+                    font-size: 12px
+                }
+            }
+            .boton-card{
+                @include medidas(50px,50px);
+                align-items: center ;
+                @include botones;
+                
+                
+                a{
+                    img{
+                        @include medidas(10px,10px);
+                    }
+                }
+                
             }
             
         }

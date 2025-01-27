@@ -6,10 +6,38 @@
 /* ESTILOS DESKTOP */
 @media screen and (min-width: 1024px) {
 
-
-
     .main-index{
         @include grid(grid, repeat(2, 1fr), 1fr);
 
+    }
+
+    /* ESTILOS DE MENU */
+    .main-menu{
+        .menu{
+            @include grid(grid, repeat(2,1fr),repeat(2,1fr));
+            
+            .card{
+                flex-direction: column;
+                padding-left: 0;
+                padding-right: 0;
+                img{
+                    width: 40%;
+                }
+                .text-card{
+                    p{
+                        font-size: larger;
+                    }
+                }
+                .boton-card{
+                    @include medidas(150px,50px);
+                    a{
+                        img{
+                            @include medidas(25px,25px);
+                        }
+                    }
+                }
+            }
+        }
+            
     }
 }

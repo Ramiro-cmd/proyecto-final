@@ -50,4 +50,22 @@
         }
     }
 
+    /* ESTILOS DEL MENU */
+
+    .main-menu{
+        .menu{
+            margin-left: 1.5rem;
+            margin-right: 1.5rem;
+            .card{
+                
+
+                .text-card{
+                    p{
+                        padding-left: 10px;
+                        padding-right: 10px;
+                    }
+                }
+            }
+        }
+    }
 }
