@@ -42,4 +42,23 @@
         }
             
     }
+
+    /* ESTILOS DE UBI */
+    .main-ubi{
+        height: 80vh;
+        .cont-ubi{
+            @include grid(grid, 40% 40%, 10% 70% 10% );
+            justify-content: center;
+            justify-items: center;
+            column-gap: 0;
+            img{
+               
+                @include medidas(400px,400px);
+                border-radius: 5px;
+                
+            }
+            
+        }
+        
+    }
 }
