@@ -79,6 +79,7 @@ footer{
 //ESTILOS DEL MENU
 /* ESTILOS DEL MENU */
 .main-menu{
+    height: 80vh;
     .titulo-menu{
         text-align: center;
         padding: 20px
@@ -113,7 +114,7 @@ footer{
                 @include medidas(50px,50px);
                 align-items: center ;
                 @include botones;
-                
+                background-color: #8F2907;
                 
                 a{
                     img{

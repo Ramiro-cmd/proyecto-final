@@ -79,6 +79,9 @@ footer .redes {
 }
 
 /* ESTILOS DEL MENU */
+.main-menu {
+  height: 80vh;
+}
 .main-menu .titulo-menu {
   text-align: center;
   padding: 20px;
@@ -121,6 +124,7 @@ footer .redes {
   align-items: center;
   border-radius: 15%;
   cursor: pointer;
+  background-color: #8F2907;
 }
 .main-menu .menu .card .boton-card:hover {
   background-color: #F4A261;
@@ -298,6 +302,7 @@ footer .redes {
   }
   /* ESTILOS DE MENU */
   .main-menu {
+    height: auto;
     align-content: center;
     align-items: center;
   }
