@@ -46,10 +46,10 @@ nav div a .logo-rm {
 .main-index .text-main button {
   width: 90px;
   height: 40px;
-  background-color: #8F2907;
   border-radius: 15%;
-  border: 2px solid #8F2907;
   cursor: pointer;
+  background-color: #8F2907;
+  border: 2px solid #8F2907;
 }
 .main-index .text-main button:hover {
   background-color: #F4A261;
@@ -93,6 +93,7 @@ footer .redes {
   padding-bottom: 1.5rem;
 }
 .main-menu .menu .card {
+  background-color: #FFFFB3;
   border: none;
   margin-left: 2px;
   margin-right: 2px;
@@ -118,9 +119,7 @@ footer .redes {
   width: 50px;
   height: 50px;
   align-items: center;
-  background-color: #8F2907;
   border-radius: 15%;
-  border: 2px solid #8F2907;
   cursor: pointer;
 }
 .main-menu .menu .card .boton-card:hover {

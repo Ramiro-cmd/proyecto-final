@@ -41,14 +41,10 @@ nav{
         }
         button{
             @include medidas(90px,40px);
+            @include botones;
             background-color: #8F2907;
-            border-radius: 15%;
+
             border: 2px solid #8F2907;
-            cursor: pointer;
-            &:hover{
-                background-color: $color-principal;
-                
-            }
             a{
                 color: $textos  ;
                 text-decoration: none;
@@ -60,7 +56,7 @@ nav{
 }
 /* FOOTER */
 footer{
-    background-color: #1E2D2F;
+    background-color: $color-footer;
     color: $textos;
     display: flex;
     align-content: center;
@@ -91,6 +87,7 @@ footer{
         @include grid(grid,1fr, repeat(4,1fr));
         padding-bottom: 1.5rem;
         .card{
+            background-color:#FFFFB3 ;
             border: none;
             margin-left: 2px;
             margin-right: 2px;
