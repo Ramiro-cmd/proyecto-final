@@ -180,3 +180,26 @@ footer{
 
     
 }
+
+//---------------------------------------------------------------
+/* ESTILOS DE ABOUT */
+
+.main-about{
+    .cont-about{
+        display: flex;
+        flex-direction: column;
+
+        .text-about{
+            text-align: center;
+            padding: 10px;
+        }
+    }
+
+    .img-about{
+        text-align: center;
+        padding-bottom: 2rem;
+        img{
+            width: 80%;
+        }
+    }
+}

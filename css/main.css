@@ -170,6 +170,23 @@ footer .redes {
   padding-bottom: 10px;
 }
 
+/* ESTILOS DE ABOUT */
+.main-about .cont-about {
+  display: flex;
+  flex-direction: column;
+}
+.main-about .cont-about .text-about {
+  text-align: center;
+  padding: 10px;
+}
+.main-about .img-about {
+  text-align: center;
+  padding-bottom: 2rem;
+}
+.main-about .img-about img {
+  width: 80%;
+}
+
 /* Estilos para tablet */
 @media screen and (min-width: 600px) {
   /* HEADER */
@@ -255,6 +272,20 @@ footer .redes {
     grid-column: span 2;
     font-size: 30px;
   }
+  /* ESTILOS DE ABOUT */
+  .main-about {
+    height: 80vh;
+  }
+  .main-about .cont-about {
+    padding-top: 2rem;
+  }
+  .main-about .cont-about .text-about h1 {
+    font-size: 50px;
+    margin-bottom: 10px;
+  }
+  .main-about .cont-about .text-about p {
+    font-size: 20px;
+  }
 }
 /* ESTILOS DESKTOP */
 @media screen and (min-width: 1024px) {
@@ -334,6 +365,16 @@ footer .redes {
   .main-contacto .cont-contacto .img-cont .avatar {
     width: 350px;
     height: 350px;
+  }
+  /* ESTILOS DE ABOUT */
+  .main-about {
+    align-content: center;
+  }
+  .main-about .cont-about {
+    flex-direction: row;
+  }
+  .main-about .cont-about .text-about {
+    padding: 2rem;
   }
 }
 

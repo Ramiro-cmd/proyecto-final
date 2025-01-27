@@ -81,4 +81,17 @@
             }
         }
     }
+
+    /* ESTILOS DE ABOUT */
+    .main-about{
+        align-content: center;
+        .cont-about{
+            flex-direction: row;
+
+            .text-about{
+                padding: 2rem;
+            }
+        }
+    }
+
 }
