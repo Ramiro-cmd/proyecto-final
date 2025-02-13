@@ -107,6 +107,7 @@ footer .redes {
 }
 .main-menu .menu .card img {
   width: 20%;
+  object-fit: contain;
 }
 .main-menu .menu .card .text-card {
   font-size: 10px;
